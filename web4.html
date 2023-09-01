@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PROJECT</title>
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style4.css">
+</head>
+<body>
+
+    <div id="wrap">
+        <header class="title">
+            <h1>ARCOIRIS <span>CONCEPT</span></h1>
+        </header>
+
+        <main class="image">
+            <img src="images/branding/logo concept.jpg">
+        </main>
+
+        <footer class="footer">
+            <button class="btn btn--stripe"><a href="#">TOP</a></button>
+            <button class="btn btn--stripe popup-btn"><a href="#">CLOSE</a></button>
+        </footer>
+    </div>
+
+    <script src="script/jquery-1.12.3.js"></script>
+    <script>
+        $(function () {
+                $(".popup-btn").click(function () {
+                    window.close();
+                });
+            });
+    </script>
+</body>
+</html>
