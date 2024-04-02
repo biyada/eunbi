@@ -526,11 +526,11 @@ width: 10px;
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 10px;
+  padding: 20px;
   background-color: #eee;
   cursor: pointer;
   border-radius: 5px;
-  margin-bottom: 6px;
+  margin: 15px;
 }
 
 .videocontainer .video-list-container .list.active{
